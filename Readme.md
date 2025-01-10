@@ -6,22 +6,28 @@
 
 ## Executando o Projeto
 
-1. **Abra o Terminal**: Navegue até o diretório do projeto onde os arquivos `index.js` está localizado.
+1. **Abra o Terminal**: Navegue até o diretório do projeto onde o `package.json` está localizado.
 
-2. **Execute o Script Principal**: Execute o seguinte comando no terminal para iniciar o projeto:
+2. **Instale as Dependências**: Execute o seguinte comando no terminal para instalar as bibliotecas necessárias:
 
    ```bash
-   node index.js
+   npm install
    ```
 
-3. **Interação com o Usuário**:
+3. **Execute o Script Principal**: Execute o seguinte comando no terminal para iniciar o projeto:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Interação com o Usuário**:
 
    - O script executará automaticamente o exercício 01.
    - Para o exercício 02, será solicitado que você insira um número para verificar se ele pertence à sequência de Fibonacci. Digite o número e pressione Enter.
    - Para o exercício 03 e 04 executará automaticamente também.
-   - Para o exercício 05, será solicitado que você insira uma string para ser invertida. 
+   - Para o exercício 05, será solicitado que você insira uma string para ser invertida.
 
-4. **Saída**: O terminal exibirá os resultados dos exercícios conforme eles são executados.
+5. **Saída**: O terminal exibirá os resultados dos exercícios conforme eles são executados.
 
 ## Observações
 
