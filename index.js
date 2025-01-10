@@ -8,7 +8,8 @@ const EX05 = require("./Ex05");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
+  terminal: false
 });
 
 EX01();
@@ -21,13 +22,14 @@ rl.on('line', (number) => {
   rl.close();
 });
 
-rl.on('close', () => {
-  EX03();
+rl.on('close', async () => {
+  await EX03();
   EX04();
 
   const rl2 = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
+    terminal: false
   });
 
   console.log('\nEx05');

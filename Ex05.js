@@ -9,7 +9,7 @@ const EX05 = (string) => {
   for (let i = string.length - 1; i >= 0; i--) {
     reversedString += string[i];
   }
-  console.log(reversedString);
+  console.log(`A string invertida é: ${reversedString}`);
 };
 
 module.exports = EX05;

@@ -2,6 +2,11 @@
 // IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
 const EX02 = (number) => {
+  if (isNaN(number)) {
+    console.log('O valor informado não é um número');
+    return;
+  }
+
   const fibonacci = [0, 1];
   let found = false;
 
